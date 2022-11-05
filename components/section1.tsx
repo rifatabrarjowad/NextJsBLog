@@ -41,17 +41,17 @@ function Slide() {
     return (
         <div className="grid md:grid-cols-2">
             <div className="image">
-                <Link className="" href="https://www.youtube.com/watch?v=1Q8fG0TtVAY">
+                <Link className="" href="/posts/post">
                     <Image src="/images/img1.jpg" width="500" height="500" />
                 </Link>
             </div>
             <div className="info flex justify-center flex-col">
                 <div className="cat">
-                    <Link href={"/"} className="text-orange-600 hover:text-orange-800">Business, Travel</Link>
-                    <Link href={"/"} className="text-gray-800 hover:text-gray-600">- July 3, 2022</Link>
+                    <Link href={"/posts/post"} className="text-orange-600 hover:text-orange-800">Business, Travel</Link>
+                    <Link href={"/posts/post"} className="text-gray-800 hover:text-gray-600">- July 3, 2022</Link>
                 </div>
                 <div className="title">
-                    <Link href={"/"} className="text-3xl md:text-6xl font-bold text-gray-800 hover:text-gray-600">Your most unhappy customers are your greatest source of learning</Link>
+                    <Link href={"/posts/post"} className="text-3xl md:text-6xl font-bold text-gray-800 hover:text-gray-600">Your most unhappy customers are your greatest source of learning</Link>
                 </div>
                 <p className="text-gray-500 py-3">
                     Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind
